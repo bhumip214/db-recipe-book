@@ -7,8 +7,8 @@ exports.seed = function(knex, Promise) {
       return knex("recipes").insert([
         { name: "Chocolate Chip Cookie", dishId: 1 },
         { name: "Guacamole", dishId: 3 },
-        { name: "Mango Strawberry Smoothie", dishId: 2 }
-        { name: "Spinach Dip", dishId: 3 },
+        { name: "Mango Strawberry Smoothie", dishId: 2 },
+        { name: "Spinach Dip", dishId: 3 }
       ]);
     });
 };

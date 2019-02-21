@@ -11,7 +11,7 @@ exports.seed = function(knex, Promise) {
         { name: "Chocolate chips" },
         { name: "Vanilla extract" },
         { name: "Light brown sugar" },
-        { name: "Granulated sugar" }
+        { name: "Granulated sugar" },
         { name: "Eggs" }
       ]);
     });
