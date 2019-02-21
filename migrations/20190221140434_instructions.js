@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
 
     tbl.integer("stepNo").notNullable();
 
-    tbl.text("step", 500).notNullable();
+    tbl.text("step").notNullable();
 
     tbl
       .integer("recipeId")
