@@ -2,7 +2,9 @@ exports.up = function(knex, Promise) {
   return knex.schema.createTable("recipe_ingredients", function(tbl) {
     tbl.increments();
 
-    tbl.float("quantity");
+    tbl.float("quantity").notNullable();
+
+    tbl.string("measurement").notNullable();
 
     tbl
       .integer("recipeId")
